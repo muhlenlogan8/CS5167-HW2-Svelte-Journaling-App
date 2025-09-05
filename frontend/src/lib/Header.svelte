@@ -1,4 +1,9 @@
-<header class="bg-blue-500 flex items-center justify-between px-6 py-2">
-    <h1 class="text-3xl text-white font-bold">My Tracker</h1>
-    <p class="text-xl text-white font-bold">User's Name</p>
+<script>
+    // Bring in now prop from App.svelte
+    let { now } = $props();
+</script>
+
+<header class="bg-header flex items-center px-10 py-3 justify-between">
+	<h1 class="text-4xl text-white font-bold">My Tracker</h1>
+    <p class="text-white text-xl font-semibold">{now.toLocaleTimeString()}</p>
 </header>

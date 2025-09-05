@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@theme {
+    --color-background3: #FCF7F0;
+    --color-background2: #F1FFFA;
+    --color-background: #EEE7E7;
+
+    --color-header: #002642;
+
+    --color-red-card: #840032;
+    --color-blue-card: #005F73;
+    --color-green-card: #0A9396;
+    --color-yellow-card: #E59500;
+
+    --color-rich-black: #02040F;
+}
